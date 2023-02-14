@@ -1,0 +1,1 @@
+I want to add a "collaboration request" option for the project (restaurant). In this way, the applicant clicks on it and completes the application form.
