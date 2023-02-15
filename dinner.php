@@ -114,6 +114,7 @@ display: flex;
 
 
 .footer-box{
+display: flex;
 background-color: #ffde00;
 color: #141516;
 display: flex;
