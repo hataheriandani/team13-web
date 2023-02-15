@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     margin-top: 20px;
     margin-bottom: 10px;
     -webkit-filter: drop-shadow(5px 5px 5px #141516);
@@ -29,7 +29,7 @@ body {
     color:#222629;
     border-radius: 3;
     align-self: center;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 5px;
     -webkit-filter: drop-shadow(5px 5px 5px #141516);
     filter: drop-shadow(5px 5px 5px #141516);
@@ -38,9 +38,9 @@ body {
 h1 {
     text-align: left;
     margin-top: 60px;
-    margin-left: 10px;
+    margin-left: 50px;
     color: #ffde00;
-    font-size: 90px;
+    font-size: 80px;
     text-shadow: (5px 5px 5px #141516);
     filter: drop-shadow(5px 5px 5px #141516);
 }
@@ -59,7 +59,7 @@ h2 {
 
 .home {
     width: 60px;
-    margin-top: 90px;
+    margin-top: 70px;
     -webkit-filter: drop-shadow(5px 5px 5px #141516);
     filter: drop-shadow(5px 5px 5px #141516);
 }
