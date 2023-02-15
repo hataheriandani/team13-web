@@ -1,4 +1,6 @@
-
+<?php
+include "header.php" ?>
+<body>
 
 <div class="wrapper">
 <div class="container>">
