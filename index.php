@@ -59,4 +59,13 @@
 </div>
 </body>
 </html>
+<style>
+  .row3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+</style>
 <?php include "footer.php" ?>
