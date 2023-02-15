@@ -34,14 +34,6 @@ display: flex;
 justify-content: space-between;
 color: #ffde00;
 }
-.row1{
-display: flex;
-}
-.logo {
-
-width: 200px;
-margin-top: 20px;
-}
 
 h2{
 font-family: Edwardian Script ITC;
@@ -61,12 +53,7 @@ img {
 width: fit-content;
 
 }
-.home {
-    width: 60px;
-    margin-top: 90px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
+
 
 .left {
 display: flex;
@@ -112,75 +99,6 @@ margin-bottom: 15px;
 display: flex;
 }
 
-
-.footer-box{
-background-color: #ffde00;
-color: #141516;
-display: flex;
-justify-content: space-between;
-margin: 100px 0px 0 0px;
-
-}
-
-.col-md-8,.col-md-4 {
-display:block;
-justify-content: space-between;
-}
-
-
-@media (max-width: 1080px) {
-body {
-width: fit-content;
-margin: 0 16px 16px 16px;
-    
-}
-.wrapper {
-display: block;
-justify-content : center ;
-align-items:center ;
-height : auto;
-width: 100%;
-}
-img {
-display: block;
-margin: 0 0 16px 0;
-}
-}
-
-@media (max-width: 720px) {
-body {
-    width: fit-content;
-    margin: 0 16px 16px 16px;       
-}
-.wrapper {
-    display: block;
-    justify-content : center ;
-    align-items:center ;
-    height : auto;
-    width: 100%;
-}
-img {
-    display: block;
-    margin: 0 0 16px 0;
-}
-}
-@media (max-width: 450px) {
-    body {
-        width: fit-content;
-        margin: 0 16px 16px 16px;       
-    }
-    .wrapper {
-        display: block;
-        justify-content : center ;
-        align-items:center ;
-        height : auto;
-        width: 100%;
-    }
-    img {
-        display: block;
-        margin: 0 0 16px 0;
-    }
-    }
           </style>
 
           <?php include "footer.php";?>
