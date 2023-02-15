@@ -20,6 +20,7 @@ include "header.php" ?>
                 <div class="col align-self-center"><img class="right" src="images/fesenjoon.jpg" alt="right image"></div>
             </div>
           </div>
+          </div>
           <style>
            body {
 
@@ -181,4 +182,5 @@ img {
     }
     }
           </style>
+
           <?php include "footer.php";?>
