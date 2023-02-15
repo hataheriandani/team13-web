@@ -18,7 +18,7 @@
           <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>collaboration request</b></a>
           <a class="home" href="index.php"><img class="home" src="images/home.png" alt="home button"> </a>
         </div>
-            
+        <style>      
     .logo {
 
 width: 200px;
