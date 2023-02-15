@@ -1,51 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> <?php echo $title ?> </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
-<style>
-  a, .nav-link,.navbar-brand {
-    color: white;
-}
-    </style>
-</head>
-<body>
-  <div class="container" >
-    <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Shehan Senanayake</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="variable.php">Exercise 3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">Exercise 4</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="array_exercise.php">Exercise 5</a>
-        </li>
-        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-</div> 
+<div class="row">
+        <div class="col-md-2">
+          <img class="logo" src="images/logo.png" alt="logo">
+        </div>
+
+        <div class="col-md-6">
+          <h1><b>Bon Appétit</b></h1>
+        </div>
+
+        <div class="col-md-4" style="text-align: right;">
+          <a class="btn btn-danger" href="about.html" role="button" style="vertical-align: middle ;"> <b>About us</b></a>
+          <a class="btn btn-danger" href="https://www.hamk.fi/" role="button" style="vertical-align: middle ;"> <b>Make Reservation</b></a>
+          <a class="home" href="index.html"><img class="home" src="images/home.png" alt="home button"> </a>
+        </div>
