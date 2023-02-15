@@ -1,1 +1,1 @@
-<!-- I'm going to do the Feedback form and add it to the Home page. ->
+I'm going to do the Feedback form and add it to the Home page. Also I'll add the universaal header and the footer to the website. Create feedback table for the database.
