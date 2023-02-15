@@ -15,5 +15,6 @@
           <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Products</b></a>
           <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Make Reservation</b></a>
           <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Feedback</b></a>
+          <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>collaboration request</b></a>
           <a class="home" href="index.php"><img class="home" src="images/home.png" alt="home button"> </a>
         </div>
