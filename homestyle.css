@@ -14,65 +14,9 @@ body {
     color: #ffde00;
 }
 
-.logo {
-    width: 150px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-
-}
-
-.btn {
-    background-color:#ffde00;
-    border-color:#ffde00;
-    color:#222629;
-    border-radius: 3;
-    align-self: center;
-    margin-top: 70px;
-    margin-left: 5px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-
-h1 {
-    text-align: left;
-    margin-top: 60px;
-    margin-left: 50px;
-    color: #ffde00;
-    font-size: 80px;
-    text-shadow: (5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-
-h2 {
-
-    font-family:Edwardian Script ITC;
-    font-size: 65px;
-    text-align: left;
-    margin-bottom: 20px;
-    text-shadow: (5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-
-}
-
-
-.home {
-    width: 60px;
-    margin-top: 70px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-
-.home :hover {
-    transform: scale(1.1);
-}
-
 .left {
     text-align: left;
 }
-
-
 
 .row2 {
     width: 1000px;
