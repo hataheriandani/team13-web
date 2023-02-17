@@ -1,6 +1,5 @@
 <?php include "header.php" ?>
 
-<!doctype html>
   <body>
 
   <div class="wrapper">
