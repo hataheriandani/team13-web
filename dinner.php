@@ -21,7 +21,7 @@ include "header.php" ?>
             </div>
           </div>
           </div>
-          <style>
+         <style>
            body {
 
 background-color: #222629;
@@ -33,14 +33,6 @@ margin:auto;
 display: flex;
 justify-content: space-between;
 color: #ffde00;
-}
-.row1{
-display: flex;
-}
-.logo {
-
-width: 200px;
-margin-top: 20px;
 }
 
 h2{
@@ -59,13 +51,6 @@ color: white;
 
 img {
 width: fit-content;
-
-}
-.home {
-    width: 60px;
-    margin-top: 90px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
 }
 
 .left {
@@ -182,6 +167,8 @@ img {
         margin: 0 0 16px 0;
     }
     }
-          </style>
-
-          <?php include "footer.php";?>
+          </style> 
+          
+              <?php include "footer.php";?>
+            
+      
