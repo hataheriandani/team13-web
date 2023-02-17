@@ -32,7 +32,7 @@
           </div>
         </a>
 
-        <a class="card3" href="dinner.php">
+        <a class="card3" href="dinner1.php">
           <img src="images/dinner.jpg" alt="dinner menu" style="width:90%">
           <div class="container">
             <br>
