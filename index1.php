@@ -106,6 +106,10 @@ a:link { /*Tel number color */
     transform: scale(1.1);
 }
 
+.home :hover {
+    transform: scale(1.1);
+}
+
 
 .footer-box{
     display: flex;
