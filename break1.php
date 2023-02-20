@@ -1,7 +1,7 @@
 <?php
 include "header1.php" ?>
 
-<h2>BreakFast</h2>
+<h2>BreakFast Menu</h2>
 <div class="wrapper">
     <div class="container>">
         
