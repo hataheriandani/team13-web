@@ -18,10 +18,10 @@
         </div>
 
         <div class="col-md-6" style="text-align: right;">
-          <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>About us</b></a>
+          <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Payment</b></a>
           <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Products</b></a>
           <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Feedback</b></a>
-          <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>collaboration request</b></a>
+          <a class="btn btn-danger" href="#" role="button" style="vertical-align: middle ;"> <b>Collaboration Request</b></a>
           <a class="home" href="index1.php"><img class="home" src="images/home.png" alt="home button"> </a>
         </div>
         <style>
