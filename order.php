@@ -17,34 +17,39 @@
     <div class="col1">
         <h3 class="title">Billing Information</h3>
         <div class="inputBox">
-            <span> full Name :</span>
-            <input type="text" placeholder="Amabo Raphael ">
+            <span> First Name :</span>
+            <input type="text" placeholder="Raphael " required>
+        </div>
+
+        <div class="inputBox">
+            <span> Last Name :</span>
+            <input type="text" placeholder="Amabo " required>
         </div>
 
         <div class="inputBox">
             <span> email:</span>
-            <input type="text" placeholder="example@email.com">
+            <input type="text" placeholder="example@email.com" required>
         </div>
 
         <div class="inputBox">
             <span> Address :</span>
-            <input type="text" placeholder="street-street number-building number- door number ">
+            <input type="text" placeholder="street-street number-building number- door number " required>
         </div>
 
         <div class="inputBox">
             <span> City :</span>
-            <input type="text" placeholder="Hameenlinna">
+            <input type="text" placeholder="Hameenlinna" required>
         </div>
 
         
         <div class="flex">
             <div class="inputBox">
             <span> state:</span>
-            <input type="text" placeholder="Amabo Raphael ">
+            <input type="text" placeholder="Amabo Raphael " required>
         </div>
         <div class="inputBox">
             <span> zip code :</span>
-            <input type="text" placeholder="123 333">
+            <input type="text" placeholder="123 333" required>
         </div>
 
 
@@ -70,6 +75,11 @@
         <div class="inputBox">
             <span> card number :</span>
             <input type="number" placeholder="123-444-555-444">
+        </div>
+
+        <div class="inputBox">
+            <span> Phone number :</span>
+            <input type="number" placeholder="04344566788">
         </div>
 
         <div class="inputBox">
