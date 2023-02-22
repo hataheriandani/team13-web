@@ -8,12 +8,15 @@
 <h2>There is always something for everyone.</h2>
       </div>
 
-      <div class="row2">
-        <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-7">
           <p>Bon Appétit is located in the historic premises of the Swedish Theater in Helsinki. Here we serve, among other things, classic dishes such as Biff Rydberg, a classic Skagen, Skaldjursplatå and other delicacies. We invest in high-quality service, good drinks and good ingredients. We also manage the intermission service at the Swedish Theatre, which you can book in advance.</p>         
           <p>At Bon Appétit we serve grilled premium hamburgers and kebabs with good accessories and top quality ingredients. We invest in small-scale preparation and cooking, freshly baked bread and the house's own dressings.</p>
         </div>
+        <div class="col-md-5">
+        <img src="images/background.png" alt="background image" style="content-align:top; position: relative;">
       </div>
+</div>
 
       <div class="row3">
         <a class="card1" href="break1.php">
@@ -43,12 +46,7 @@
  
 <style>
  body {
-    background-color: #222629;
-    background-image: url(images/background.png);
-    background-position: right;
-    background-position-y: 100px;
-    background-repeat: no-repeat;
-
+    background-color: #222629;  
     font-family: 'Encode Sans', sans-serif;
     font-size: 20px;
     width: 1280px;
