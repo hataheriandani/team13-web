@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "header1.php" ?>
 
 <head>
   
@@ -141,4 +141,4 @@
     }
     ?>
 
-<?php include "footer.php" ?>
+<?php include "footer1.php" ?>
