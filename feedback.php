@@ -6,8 +6,8 @@ include "header1.php" ?>
 
 <form1 method = "post" action="" onsubmit="return crud()" name="form1">
     <input type="text" name="fname" placeholder="First Name" required onblur="fname()"> <br><br>
-    <input type="text" name="lname" placeholder="Last Name" required > <br><br>
-    <input type="text" name="email" placeholder="Email" required > <br><br>
+    <input type="text" name="lname" placeholder="Last Name" required onblur="lname()"> <br><br>
+    <input type="text" name="email" placeholder="Email" required> <br><br>
     <input type="date" name="date" class="form-control" required> <br>
     <input type="text" name="feedback" placeholder="Feedback" required > <br><br>
     <input type="submit" value="Submit" name="submit"> <br><br>
@@ -23,7 +23,7 @@ include "header1.php" ?>
         $date = $_POST['date'];
         $feedback = $_POST['feedback'];
         include 'db.php';
-        $sql = "insert into studentinfo (fname, lname, email, date, feedback)
+        $sql = "insert into shehan_feedback (fname, lname, email, date, feedback)
         values('$fname', '$lname', '$email', '$date', '$feedback',)";
 
         if ($conn ->query($sql) === TRUE){
