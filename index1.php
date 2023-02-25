@@ -14,7 +14,7 @@
           <p>At Bon Appétit we serve grilled premium hamburgers and kebabs with good accessories and top quality ingredients. We invest in small-scale preparation and cooking, freshly baked bread and the house's own dressings.</p>
         </div>
         <div class="col-md-5">
-        <img src="images/background.png" alt="background image" style="content-align:top; position: relative;">
+        <img src="images/background.png" alt="background image" style="margin: auto;">
       </div>
 </div>
 
