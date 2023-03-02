@@ -8,7 +8,11 @@ include "header1.php";?>
     <input type ="text" name ="city" placeholder="City" required><br><br>
     <input type ="text" name ="email" placeholder="Email Adrress" required><br><br>
     <input type ="num" name ="pnumber" placeholder="Phone Number" required><br><br>
-    <select name="groupid">
+    <select name="gender">
+        <option value="G1">male</option>
+        <option value="G2">fmale</option>
+    </select><br><br>
+    <select name="section">
         <option value="Group1">Advertising</option>
         <option value="Group2">Sale</option>
         <option value="Group3">Cooking </option>
@@ -25,9 +29,10 @@ include "header1.php";?>
             $city=$_POST['city'];
             $email=$_POST['email'];
             $pnumber=$_POST['pnumber'];
-            $groupid=$_POST['groupid'];
+            $groupid=$_POST['gender'];
+            $groupid=$_POST['section'];
 
-            include 'db.php';
+            include 'dbtaheri.php';
             $sql="insert into studentInfu(fname,lname,city,groupid)
             values('$fname','$lname','$city','$email','$pnumber', '$groupid')";
             
