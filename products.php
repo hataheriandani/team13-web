@@ -14,7 +14,7 @@ echo "
  <table class='table table-striped table-dark' style='height:500px; border: 1px;'>";
  echo "<thead>
  <tr align='center'>
-   <th scope='col' colspan='3' >Product Name</th>
+   <th scope='col' colspan='3' style='color:yellow;'>Product Name</th>
    
  </tr>
 </thead>";
@@ -43,7 +43,7 @@ echo "</div>
 </div>
 </div>";
 ?>
-<h1>dkjsjldjf;sdifjoijekmelkjrkle</h1>
+
 
 <style>
  body {
@@ -120,7 +120,13 @@ margin-bottom: 15px;
 .matn1{
 display: flex;
 }
-
+a{ text-decoration: none;
+  color:#ffffff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffde00;
+}
 </style>        
 
 <?php
