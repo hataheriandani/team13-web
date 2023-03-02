@@ -1,16 +1,17 @@
 <?php
 include "header1.php"; 
-include("db.php");
+include "db.php";
 
 $sql="SELECT * FROM productInfo";
 $result=$conn->query($sql);
+echo $sql;
 if($result->num_rows>0){
 echo "
 <div class='container'>
 <div class='row'>
 <div class='col-md-8'>
  <form method='POST'>
- <table class='table table-striped table-dark' style=height:500px;>";
+ <table class='table table-striped table-dark' style='height:500px; border: 1px;'>";
  echo "<thead>
  <tr align='center'>
    <th scope='col' colspan='3' >Product Name</th>
@@ -42,13 +43,9 @@ echo "</div>
 </div>
 </div>";
 ?>
+<h1>dkjsjldjf;sdifjoijekmelkjrkle</h1>
 
-<section name="display">
-  
-
-
-</section>
-          <style>
+<style>
  body {
 
 background-color: #222629;
