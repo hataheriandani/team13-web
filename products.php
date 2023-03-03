@@ -4,17 +4,17 @@ include "db.php";
 
 $sql="SELECT * FROM productInfo";
 $result=$conn->query($sql);
-echo $sql;
+
 if($result->num_rows>0){
 echo "
 <div class='container'>
 <div class='row'>
 <div class='col-md-8'>
  <form method='POST'>
- <table class='table table-striped table-dark' style='height:500px; border: 1px;'>";
+ <table class='table table-striped table-dark'  border: 1px;'>";
  echo "<thead>
  <tr align='center'>
-   <th scope='col' colspan='3' style='color:yellow;'>Product Name</th>
+   <th scope='col' colspan='3' style='color:black; background-color:yellow; '><h3>Menu<h3></th>
    
  </tr>
 </thead>";
@@ -25,7 +25,9 @@ echo "
   <tbody>
     <tr>
       
-      <td colspan='3'><a href='display.php?id=$row[product_Name]'>$row[product_Name]</a></td>
+      <td style='vertical-align:middle';><p style='color:yellow'>$row[product_Name]</p></td>
+      <td><p style='color:yellow'>$row[availality]</P>$row[description]<br>$row[price] </td>
+      
           
     </tr>
    
@@ -38,7 +40,10 @@ else {
 }
 echo "</div>
 <div class='col-md-4' style='vertical-align:middle;'>
-<img src='images/lunch.jpg' alt='image' height='400px' >
+<a class='btn btn-danger' href='productData.php' role='button' style='vertical-align: middle ;'>Enter Menu Detail</a>
+<img src='images/lunch.jpg' alt='image'  style='padding-top: 100px; height:300px; width:300px'>
+<img src='images/fire.png' alt='image' style='padding-top: 100px; height:300px; width:300px'>
+<img src='images/dinner.jpg' alt='image' style='padding-top: 100px; height:300px; width:300px'>
 </div>
 </div>
 </div>";
