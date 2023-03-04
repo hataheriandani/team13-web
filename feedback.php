@@ -11,7 +11,7 @@ include "header1.php";
 <h2> FEEL FREE TO GIVE US A FEEDBACK </h2>
 
 <div class="container">
-<form method = "POST" action=""  name="form1" >
+<form method = "POST" action="" name="form1" >
 <div class="row1">
 
     <div class="col1">
@@ -27,13 +27,13 @@ include "header1.php";
 
         <div class="inputBox">
             <span> Email:</span>
-            <input type="email" name="email" placeholder="email" required>
+            <input type="email" name="email" placeholder="email" required onsubmit="return validateemail()">
         </div>
 
-        <div class="inputBox">
-            <span> Feedback :</span>
-            <textarea cols="50" rows="6" name="feedback" id="feedback" style="outline-style:1px ;" required></textarea>
-        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+            <textarea cols="50" rows="6" class="form-control" name="feedback" id="feedback" rows="3" required></textarea>
+            </div>
         
         <div class="flex">
             <div class="inputBox">
