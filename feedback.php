@@ -10,11 +10,6 @@ include "header1.php";
 
 <h2> FEEL FREE TO GIVE US A FEEDBACK </h2>
 
-
-
-
-
-
 <div class="container">
 <form method = "POST" action=""  name="form1" >
 <div class="row1">
@@ -22,37 +17,33 @@ include "header1.php";
     <div class="col1">
         <div class="inputBox">
             <span> First Name :</span>
-            <input type="text" name="fname" placeholder="First name">
+            <input type="text" name="fname" placeholder="First name" required onblur="fname()">
         </div>
 
         <div class="inputBox">
             <span> Last Name :</span>
-            <input type="text" name="lname" placeholder="Last name">
+            <input type="text" name="lname" placeholder="Last name" required onblur="lname()">
         </div>
 
         <div class="inputBox">
             <span> Email:</span>
-            <input type="email" name="email" placeholder="email">
+            <input type="email" name="email" placeholder="email" required>
         </div>
 
         <div class="inputBox">
             <span> Feedback :</span>
-            <textarea cols="50" rows="6" name="feedback" id="feedback" style="outline-style:1px ;"></textarea>
+            <textarea cols="50" rows="6" name="feedback" id="feedback" style="outline-style:1px ;" required></textarea>
         </div>
         
         <div class="flex">
             <div class="inputBox">
             <span> Date</span>
-            <input type="date" name="date">
+            <input type="date" name="date" required>
         </div>
      </div>
      <input type="submit" value="submit" class="submit-btn" name="Submit">
 </div>
 </div>
-
-
-    
-    
 
 </form>
 
@@ -72,7 +63,7 @@ include "header1.php";
         
         if($conn->query($sql)==TRUE){
             echo("<SCRIPT LANGUAGE='JavaScript'>
-  window.alert('Successfully Registered!')
+  window.alert('Your information is added successfully')
   </SCRIPT>");
             
             }
@@ -82,10 +73,7 @@ include "header1.php";
     }
 ?>
 
-
 <?php include "footer1.php" ?>
-
-
 
 
 <style>
