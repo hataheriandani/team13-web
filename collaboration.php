@@ -51,10 +51,10 @@
         <div class="inputBox">
             <span> Section:</span>
             <select name="section" id="section">
-                <option value="IT">Cooking</option>
+                <option value="Cooking">Cooking</option>
                 <option value="Marketing">Marketing</option>
-                <option value="Finance">Finance</option>
-                <option value="Human Resources">Human Resources</option>
+                <option value="Delivery">Delivery</option>
+                <option value="Services">Services</option>
             </select>
         </div>
 
