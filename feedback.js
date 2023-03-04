@@ -1,6 +1,6 @@
 function crud(){
     let name=document.form1.fname.value;  
-    // to check if name is empty of not  
+    // to check if name is empty of not
     if (name==null || name==""){  
       alert("Name can't be blank");
       return false;  
