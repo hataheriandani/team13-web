@@ -1,44 +1,79 @@
 <?php 
 $title = "Feedback";
-include "header1.php" ?>
+include "header1.php";
+
+?>
+<head>
+  
+  <link rel="stylesheet" href="orderstyle.css">
+</head>
 
 <h2> FEEL FREE TO GIVE US A FEEDBACK </h2>
 
-<form1 method = "post" action="" onsubmit="return crud()" name="form1">
-    <input type="text" name="fname" placeholder="First Name" required onblur="fname()"> <br><br>
-    <input type="text" name="lname" placeholder="Last Name" required onblur="lname()"> <br><br>
-    <input type="text" name="email" placeholder="Email" required> <br><br>
-    <input type="date" name="date" class="form-control" required> <br>
-    <input type="text" name="feedback" placeholder="Feedback" required > <br><br>
-    <input type="submit" value="Submit" name="submit"> <br><br>
+<div class="container">
+<form method = "POST" action="" name="form1" >
+<div class="row1">
 
-</form1>
+    <div class="col1">
+        <div class="inputBox">
+            <span> First Name :</span>
+            <input type="text" name="fname" placeholder="First name" required onblur="fname()">
+        </div>
+
+        <div class="inputBox">
+            <span> Last Name :</span>
+            <input type="text" name="lname" placeholder="Last name" required onblur="lname()">
+        </div>
+
+        <div class="inputBox">
+            <span> Email:</span>
+            <input type="email" name="email" placeholder="email" required onsubmit="return validateemail()">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+            <textarea cols="50" rows="6" class="form-control" name="feedback" id="feedback" rows="3" required></textarea>
+            </div>
+        
+        <div class="flex">
+            <div class="inputBox">
+            <span> Date</span>
+            <input type="date" name="date" required>
+        </div>
+     </div>
+     <input type="submit" value="submit" class="submit-btn" name="Submit">
+</div>
+</div>
+
+</form>
+
 
 <?php
 
-    if (isset($_POST['submit'])) {
+  if (isset($_POST['Submit'])) {
         $fname = $_POST['fname'];
         $lname = $_POST['lname'];
         $email = $_POST['email'];
         $date = $_POST['date'];
         $feedback = $_POST['feedback'];
-        include 'db.php';
-        $sql = "insert into shehan_feedback (fname, lname, email, date, feedback)
-        values('$fname', '$lname', '$email', '$date', '$feedback',)";
+        include "db.php";
+        $sql = "INSERT INTO shehan_feedback (fname, lname, email, feedback, date)
+        values('$fname', '$lname', '$email', '$feedback', '$date')";
 
-        if ($conn ->query($sql) === TRUE){
-            echo "Your information is added successfully";
-        }
+        
+        if($conn->query($sql)==TRUE){
+            echo("<SCRIPT LANGUAGE='JavaScript'>
+  window.alert('Your information is added successfully')
+  </SCRIPT>");
+            
+            }
         else {
             echo "Error:" . $conn->error;
         }
     }
 ?>
 
-
 <?php include "footer1.php" ?>
-
-
 
 
 <style>
