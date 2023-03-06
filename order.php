@@ -133,7 +133,7 @@ this.style.fontSize = '2em';"
         $zip = $_POST['zip'];
         $number = $_POST['number'];
         //$customerid = $_POST['orderid'];
-       include 'db1.php';
+       include 'db.php';
       $sql = "INSERT INTO paymentinfo(fname,lname,email,address,name,state,zip,number)
       VALUES('$fname','$lname','$email','$address','$name','$state','$zip','$number')";
       
