@@ -41,9 +41,9 @@ else {
 echo "</div>
 <div class='col-md-4' style='vertical-align:middle;'>
 <a class='btn btn-danger' href='productData.php' role='button' style='vertical-align: middle ;'>Enter Menu Detail</a>
-<img src='images/lunch.jpg' alt='image'  style='padding-top: 100px; height:300px; width:300px'>
-<img src='images/fire.png' alt='image' style='padding-top: 100px; height:300px; width:300px'>
-<img src='images/dinner.jpg' alt='image' style='padding-top: 100px; height:300px; width:300px'>
+<img src='images/break.jpg' alt='image'  style='padding-top: 100px; height:300px; width:300px'>
+<img src='images/left.png' alt='image' style='padding-top: 100px; height:300px; width:300px'>
+<img src='images/food.jpg' alt='image' style='padding-top: 100px; height:300px; width:300px'>
 </div>
 </div>
 </div>";
