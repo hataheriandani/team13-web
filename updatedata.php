@@ -1,16 +1,18 @@
+
+<link rel="stylesheet" href="updatedata.css">
 <?php
 $title="update information";
-include "header.php";
+include "header1.php";
 $a = $_GET['id'];
 include 'db1.php';
-$result = mysqli_query($conn,"select * from paymentinfo where
-id = '$a' ");
+$result = mysqli_query($conn,"select * from paymentinfo 
+where id = '$a' ");
 $row = mysqli_fetch_array($result);
 ?>
 
 <h3>Make changes to your information, click update when done</h3>
 
-<form method="POST" action="" onsubmit="return crud2test(),crud3test()" name=payform>
+<form name ="update" method="post" action="" onsubmit="return crud2test(),crud3test()" name=payform>
 
 
 <div class="row1">
@@ -55,6 +57,32 @@ $row = mysqli_fetch_array($result);
 
 
     </div>
+    <input type="submit" value="submit" class="submit-btn" name="submit">
 
-</form>
-<input type="submit" value="submit" class="submit-btn" name="submit">
+    </form>  
+
+
+<?php
+if (isset($_POST['update'])){
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$query = mysqli_query($conn, "UPDATE paymentinfo set fname='$fname', lname='$lname' where id='$a' ");
+
+}
+else {echo "Record not modified";}
+?>
+ <p>but</p>
+<?php
+if (isset($_POST['delete'])){
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $query = mysqli_query($conn, "DELETE FROM paymentinfo where id='$a' ");
+    echo "record deleted successfully";
+}
+    else {echo "Record not modified";}
+
+?>
+<?php 
+include 'footer1.php';
+?>
+

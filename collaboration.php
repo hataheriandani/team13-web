@@ -1,4 +1,5 @@
-<?php include "header1.php" ?>
+<?php include "header1.php"?>
+<?php include 'dbtaheri.php'?>
 
 <head>
   
@@ -31,7 +32,7 @@
 
         <div class="inputBox">
             <span> Phone Number:</span>
-            <input type="number" name="phone" placeholder="Enter your phone number">
+            <input type="number" name="pnumber" placeholder="Enter your phone number">
         </div>
         
         <div class="flex">
@@ -67,9 +68,9 @@
     </div>
 
     <div class="col1">
-        <h3 class="title">Resume Upload</h3>
+        <h3 class="title">Information Upload</h3>
         <div class="inputBox">
-            <span>Upload your resume:</span>
+            <span>Upload your information:</span>
             <input type="file" name="resume" accept=".pdf,.doc,.docx">
         </div>
 
@@ -84,13 +85,13 @@
         $fname = $_POST['fname'];
         $lname = $_POST['lname'];
         $email = $_POST['email'];
-        $phone = $_POST['phone'];
+        $pnumber = $_POST['pnumber'];
         $city = $_POST['city'];
         $gender = $_POST['gender'];
         $section = $_POST['section'];
-       include 'db.php';
-      $sql = "INSERT INTO job_application(fname,lname,email,phone,city,gender,section)
-      VALUES('$fname','$lname','$email','$phone','$city','$gender','$section')";
+       
+      $sql = "INSERT INTO collaboration(fname,lname,email,pnumber,city,gender,section)
+      VALUES('$fname','$lname','$email','$pnumber','$city','$gender','$section')";
       
 
       if ($conn ->query($sql)==TRUE){
