@@ -28,6 +28,7 @@ echo "
       <td style='vertical-align:middle';><p style='color:yellow'>$row[product_Name]</p></td>
       <td><p style='color:yellow'>$row[availality]</P>$row[description]<br>$row[price] </td>
       
+      
           
     </tr>
    
@@ -40,7 +41,6 @@ else {
 }
 echo "</div>
 <div class='col-md-4' style='vertical-align:middle;'>
-<a class='btn btn-danger' href='productData.php' role='button' style='vertical-align: middle ;'>Enter Menu Detail</a>
 <img src='images/break.jpg' alt='image'  style='padding-top: 100px; height:300px; width:300px'>
 <img src='images/left.png' alt='image' style='padding-top: 100px; height:300px; width:300px'>
 <img src='images/food.jpg' alt='image' style='padding-top: 100px; height:300px; width:300px'>
