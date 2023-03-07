@@ -19,6 +19,7 @@
 
         <div class="col-md-6" style="text-align: right;">
           <a class="btn btn-danger" href="order.php" role="button" style="vertical-align: middle ;"> <b>Order</b></a>
+          <a class="btn btn-danger" href="seedata.php" role="button" style="vertical-align: middle ;"> <b>My data</b></a>
           <a class="btn btn-danger" href="products.php" role="button" style="vertical-align: middle ;"> <b>Products</b></a>
           <a class="btn btn-danger" href="feedback.php" role="button" style="vertical-align: middle ;"> <b>Feedback</b></a>
           <a class="btn btn-danger" href="collaboration.php" role="button" style="vertical-align: middle ;"> <b>Collaboration Request</b></a>
